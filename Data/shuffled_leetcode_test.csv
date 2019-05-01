@@ -1,0 +1,1251 @@
+Question Title,Question Description,Array,Hash Table,Linked List,Math,Two Pointers,String,Binary Search,Divide and Conquer,Dynamic Programming,Backtracking,Stack,Heap,Greedy,Sort,Bit Manipulation,Tree,Depth-first Search,Breadth-first Search,Union Find,Graph,Design,Topological Sort,Trie,Binary Indexed Tree,Segment Tree,Binary Search Tree,Recursion,Memoization,Queue,Minimax,Map,Random,Sliding Window,Searching,plot_lang
+Perfect Binary Tree,"Given a Binary Tree, write a function to check whether the given Binary Tree is a prefect Binary Tree or not. A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at same level.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sort Colors,"Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+Note: You are not suppose to use the library's sort function for this problem.
+",1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Shortest Distance in a Plane,"SQL Schema
+Table point_2d holds the coordinates (x,y) of some unique points (more than two) in a plane.
+  Write a query to find the shortest distance between these points rounded to 2 decimals.
+  | x  | y  |
+|----|----|
+| -1 | -1 |
+| 0  | 0  |
+| -1 | -2 |
+  The shortest distance is 1.00 from point (-1,-1) to (-1,2). So the output should be:
+  | shortest |
+|----------|
+| 1.00     |
+  Note: The longest distance among all the points are less than 10000.
+ ",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Check if palindromic ignoring spaces,"Given a string, check if it is a palindrome by ignoring spaces. E.g. race car would be a palindrome.
+
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Total Decoding Messages,"A top secret message containing letters from A-Z is being encoded to numbers using the following mapping:
+'A' -> 1
+'B' -> 2
+...
+'Z' -> 26
+You are an FBI agent. You have to determine the total number of ways that message can be decoded.
+Note: An empty digit sequence is considered to have one decoding. It may be assumed that the input contains valid digits from 0 to 9 and If there are leading 0’s, extra trailing 0’s and two or more consecutive 0’s then it is an invalid string.
+Example :
+Given encoded message ""123"",  it could be decoded as ""ABC"" (1 2 3) or ""LC"" (12 3) or ""AW""(1 23).
+So total ways are 3.
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Remainder with 7,"Given a number as string(n) , your task is to complete the function remainderWith7 which returns an integer which denotes the remainder of the number when its divided by 7. 
+
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Odd Even Jump,"You are given an integer array A.  From some starting index, you can make a series of jumps.  The (1st, 3rd, 5th, ...) jumps in the series are called odd numbered jumps, and the (2nd, 4th, 6th, ...) jumps in the series are called even numbered jumps.
+You may from index i jump forward to index j (with i < j) in the following way:
+During odd numbered jumps (ie. jumps 1, 3, 5, ...), you jump to the index j such that A[i] <= A[j] and A[j] is the smallest possible value.  If there are multiple such indexes j, you can only jump to the smallest such index j.
+During even numbered jumps (ie. jumps 2, 4, 6, ...), you jump to the index j such that A[i] >= A[j] and A[j] is the largest possible value.  If there are multiple such indexes j, you can only jump to the smallest such index j.
+(It may be the case that for some index i, there are no legal jumps.)
+A starting index is good if, starting from that index, you can reach the end of the array (index A.length - 1) by jumping some number of times (possibly 0 or more than once.)
+Return the number of good starting indexes.
+  ",0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,en
+Find N-th term in the series,"Given a series 9, 33, 73, 129...  Find the N-th term of the series.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Minimum Steps,"Anuj has challenged Arun to climb P stairs but at only in powers of X and Y. Now Arun being a lazy guy wants to do this in minimum number of steps possible. So he has asked for your help to calculate the minimum number of steps he requires to take for climbing P stairs ( 1 step = some power of X or Y stairs ).
+",1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Merge Intervals,"Given a collection of intervals, merge all overlapping intervals.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Palindromic Subsequences,"Given a Binary String S (string that contains only 0's and 1's). Find minimum number of palindromic subsequences that are needed to be removed such that string S becomes empty.
+INPUT
+The first line of the input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. The first line of each test case consists of an integer N denoting the size of the string S. The second line of each test case consists of a binary string S.
+OUTPUT
+For each test case print in a new line the number of palindromic subsequences to be removed. 
+EXAMPLE
+INPUT
+2
+5
+10001
+8
+10001001
+OUTPUT
+1
+2
+CONSTRAINTS
+1<=T<=50
+1<=N<=300
+** For More Input/Output Examples Use 'Expected Output' option **",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Binary String,"Given a binary string, count number of substrings that start and end with 1. For example, if the input string is “00100101”, then there are three substrings “1001”, “100101” and “101”.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Subsets,"Given a set of distinct integers, nums, return all possible subsets (the power set).
+Note: The solution set must not contain duplicate subsets.
+",1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reducing Walls,"Ishaan is trapped in a city full of walls. To escape from there, it needs to climb N walls, one after the other. He can climb a wall if its height is atmost K.
+Ishaan also has a superpower. He can reduce the height of a wall H by K by using his superpower. Since he can't use this power many times, calculate the minimum number of times he has to use this power to go over all the walls.
+Input : 
+First line of input contains a single integer T denoting the number of test cases. The first line of each test case contains 2 space-separated integers N and K. The second line contains N space-separated integers denoting the heights of the walls.
+Output : 
+For each test case, print the required answer in a new line.
+Constraints : 
+1 <= T <= 100
+1 <= N <= 250
+1 <= K <= 105
+1 <= H <= 109
+Example : 
+Input : 
+3
+5 5
+5 3 2 6 8
+6 4
+2 6 4 8 1 6
+4 3
+2 2 2 2
+Output : 
+2
+3
+0
+Explanation : 
+Case 1 : 
+Heights : 5 3 2 6 8
+Ishaan can climb a wall with height atmost 5. So he climbs the first 3 walls easily.
+Now he has to use his power to reduce the height of the 4th wall.
+After using his power, heights : 5 3 2 1 8
+Now to climb the last wall, he again uses his power.
+Final heights : 5 3 2 1 3
+Case 2 : 
+Heights : 2 4 6 8 1 6
+Ishaan can climb a wall with height atmost 4. So he climbs the first 2 walls easily.
+Now he has to use his power to reduce the height of the 3rd wall.
+After using his power, heights : 2 4 2 8 1 6
+Now to climb the next wall, he again uses his power.
+Heights : 2 4 2 4 1 6
+He climbs the 5th wall easily.
+To climb the last wall, h uses his power again.
+Final Heights : 2 4 2 4 1 2
+Case 3 : 
+Since all the heights are already below K(=3), Ishaan can climb all the walls without using his powers.
+  ** For More Input/Output Examples Use 'Expected Output' option **",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Two Sum IV - Input is a BST,"Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Special Numbers,"A number is a special number if it’s digits only consist 0, 1, 2, 3, 4 or 5.
+Given a number n and we have to find n-th Special Number. 
+",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reverse a Doubly Linked List,"Given a doubly linked list, the task is to Reverse the list. It should be done in-place without altering the nodes' values.
+
+In this function problem, the function reverse takes one argument: Address of the head of the linked list. The function should contain the logic to reverse the linked list.
+
+The linked list node structure has 3 fields, a data part which stores the data, a next pointer which points to the next element of the linked list and a previous pointer which points to the previous node of the linked list. 
+
+There are multiple test cases. For each test case, this function will be called individually.
+Note:  The Input/Ouput format and Example given below is used for system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from stdin/console, and should not print anything on stdout/console.
+",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Jump Game II,"Given an array of non-negative integers, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Your goal is to reach the last index in the minimum number of jumps.
+",1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Java Operators(Arithmetic) | Set 1,"Given three numbers A,B and C. Find roots of quadratic equation Ax2 + Bx + C = 0. (A not equal to  0)
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Count ways to increase LCS length of two strings by one,"Given two strings of lower alphabet characters, we need to find the number of ways to insert a character in the first string such that length of LCS of both strings increases by one.
+  ",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Special array reversal,"Given a string S, containing special characters and all the alphabets, reverse the string without
+affecting the positions of the special characters.
+  Input
+The first line of input contains an integer T denoting the number of test cases. Then T test cases
+follow. 
+The first line of each test case contains a case-insensitive string S.
+
+Output
+Print out the reversed string without  affecting special characters.
+
+Constraints
+1 <= T <= 100
+0 <   S  <= 100
+  Examples 
+Input
+3
+A&B
+abc%sld*
+dakA&*hA@#N
+Output
+B&A
+dls%cba*
+NAhA&*ka@#d
+  ** For More Input/Output Examples Use 'Expected Output' option **",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Maximum average subarray,"Given an array A[ ]  and a positive integer K, find the sub-array of length K with the maximum average.
+eg for A[] = {1, 12, -5, -6, 50, 3}, k = 4
+Maximum average sub-array of length 4 begins at index 1.
+Maximum average is (12 - 5 - 6 + 50)/4 = 51
+Input
+The first line of input contains an integer T denoting the number of test cases. Then T test cases
+follow. 
+The first line of each test case contains a positive integer K, denoting the length of the sub-array.
+The second line of each test case contains a positive integer N, denoting the length of the array.
+The third line of each test case will contain N space seprated integers denoting the elements of the
+array.
+Output
+Print out the maximum average sub-array.
+
+Constraints
+1 <= T <= 100
+0 <   N <= 30
+-500 <=  A[i] <= 500
+Examples 
+Input
+3
+2
+5
+10 4 5 15 20
+2
+4
+-12 34 56 7
+3
+7
+3 -435 335 10 -50 100 20
+
+Output
+15 20
+34 56
+335 10 -50
+  ** For More Input/Output Examples Use 'Expected Output' option **",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Max Level Sum in Binary Tree,"Given a Binary Tree having positive and negative nodes, the task is to find maximum sum level in it.
+Examples:
+Input :               4
+                    /   \
+                   2    -5
+                  / \    /\
+                -1   3 -2  6
+Output: 6
+Explanation :
+Sum of all nodes of 0'th level is 4
+Sum of all nodes of 1'th level is -3
+Sum of all nodes of 0'th level is 6
+Hence maximum sum is 6
+
+Input :          1
+               /   \
+             2      3
+           /  \      \
+          4    5      8
+                    /   \
+                   6     7  
+Output :  17
+ 
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Number of Matching Subsequences,"Given string S and a dictionary of words words, find the number of words[i] that is a subsequence of S.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Pairs which are Divisible by 4,"Given an array if ‘n’ positive integers, count number of pairs of integers in the array that have the sum divisible by 4.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Lucky alive person in a circle,"Given n people standing in a circle where 1st is having sword, find the luckiest person in the circle, if from 1st soldier who is having a sword each have to kill the next soldier and handover the sword to next soldier, in turn, the soldier will kill the adjacent soldier and handover the sword to next soldier such that one soldier remains in this war who is not killed by anyone.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Max sum in the configuration,"Given an array you have to find  the max sum of i*A[i] where i is the index of the array obtained by rotating the element of the array one by one . Your task is to complete the function max_sum which takes one argument which is the array A [ ] and returns an integer value denoting  the required max sum .
+
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Largest Even Number,"As usual Babul is back with his problem but this time with numbers. In his problem there is a number P(always a whole number) with N digits. Now he started finding out the largest possible even number formed by rearranging this N digit number. For example consider number 1324, after rearranging the digits the largest even number possible is 4312.
+Note: In case the number does not contain any even digit then output the largest odd number possible.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Find the last digit when factorial of A divides factorial of B,"Given two numbers A and B. The task is to compute the last digit of the resulting F, where F= B! / A! .
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Number of Connected Components in an Undirected Graph,"Given n nodes labeled from 0 to n - 1 and a list of undirected edges (each edge is a pair of nodes), write a function to find the number of connected components in an undirected graph.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Matrix Interchange - Java,"Working with 2D arrays is quite important. Here we will do swapping of column in a 2D array. You are given a matrix M or r rows and c columns. You need to swap the first column with the last column.
+Input Format:
+The first line of input contains T, the number of testcases. T testcases follow. Each testcase contains two lines of input. The first line contians r and c, separated by a space. The next line contains r*c elements of the matrix, separated by spaces.
+Output Format:
+For each testcase, in a new line, print the modified matrix.
+Your Task:
+Since this is a function problem, you don't need to take any input. Just complete the provided function interchange(int, int , int ) that take matrix, rows and columns as parameters.
+Constraints:
+1 <= T <= 100
+1 <= r,c <= 100
+Example:
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reverse String II,"Given a string and an integer k, you need to reverse the first k characters for every 2k characters counting from the start of the string. If there are less than k characters left, reverse all of them. If there are less than 2k but greater than or equal to k characters, then reverse the first k characters and left the other as original.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Smallest Range II,"Given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
+After this process, we have some array B.
+Return the smallest possible difference between the maximum value of B and the minimum value of B.
+  ",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Rank Scores,"SQL Schema
+Write a SQL query to rank scores. If there is a tie between two scores, both should have the same ranking. Note that after a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no ""holes"" between ranks.
++----+-------+
+| Id | Score |
++----+-------+
+| 1  | 3.50  |
+| 2  | 3.65  |
+| 3  | 4.00  |
+| 4  | 3.85  |
+| 5  | 4.00  |
+| 6  | 3.65  |
++----+-------+
+For example, given the above Scores table, your query should generate the following report (order by highest score):
++-------+------+
+| Score | Rank |
++-------+------+
+| 4.00  | 1    |
+| 4.00  | 1    |
+| 3.85  | 2    |
+| 3.65  | 3    |
+| 3.65  | 3    |
+| 3.50  | 4    |
++-------+------+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Find Duplicate File in System,"Given a list of directory info including directory path, and all the files with contents in this directory, you need to find out all the groups of duplicate files in the file system in terms of their paths.
+A group of duplicate files consists of at least two files that have exactly the same content.
+A single directory info string in the input list has the following format:
+""root/d1/d2/.../dm f1.txt(f1_content) f2.txt(f2_content) ... fn.txt(fn_content)""
+It means there are n files (f1.txt, f2.txt ... fn.txt with content f1_content, f2_content ... fn_content, respectively) in directory root/d1/d2/.../dm. Note that n >= 1 and m >= 0. If m = 0, it means the directory is just the root directory.
+The output is a list of group of duplicate file paths. For each group, it contains all the file paths of the files that have the same content. A file path is a string that has the following format:
+""directory_path/file_name.txt""
+",0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Odd Even Linked List,"Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
+You should try to do it in place. The program should run in O(1) space complexity and O(nodes) time complexity.
+",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reach a Number,"You are standing at position 0 on an infinite number line. There is a goal at position target.
+On each move, you can either go left or right. During the n-th move (starting from 1), you take n steps.
+Return the minimum number of steps required to reach the destination.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Find largest word in dictionary,"Giving a dictionary and a string ‘str’, your task is to find the longest string in dictionary of size x which can be formed by deleting some characters of the given ‘str’.
+Examples:
+Input : dict = {""ale"", ""apple"", ""monkey"", ""plea""}   
+        str = ""abpcplea""  
+Output : apple
+
+Input  : dict = {""pintu"", ""geeksfor"", ""geeksgeeks"", 
+                                        "" forgeek""} 
+         str = ""geeksforgeeks""
+Output : geeksgeeks
+
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Permutations,"Given a collection of distinct integers, return all possible permutations.
+",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Largest Number,"Given a list of non negative integers, arrange them such that they form the largest number.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Divisible by 5 or not-1,"The problem is to check whether the decimal representation of a given binary number is divisible by 5 or not.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Rectangle Overlap,"A rectangle is represented as a list [x1, y1, x2, y2], where (x1, y1) are the coordinates of its bottom-left corner, and (x2, y2) are the coordinates of its top-right corner.
+Two rectangles overlap if the area of their intersection is positive.  To be clear, two rectangles that only touch at the corner or edges do not overlap.
+Given two (axis-aligned) rectangles, return whether they overlap.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Play With OR,"You are given an array A[] , you have to construct a new array A2[].
+The values in A2[] are obtained by doing OR of consecutive elements in array.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Robot Room Cleaner,"Given a robot cleaner in a room modeled as a grid.
+Each cell in the grid can be empty or blocked.
+The robot cleaner with 4 given APIs can move forward, turn left or turn right. Each turn it made is 90 degrees.
+When it tries to move into a blocked cell, its bumper sensor detects the obstacle and it stays on the current cell.
+Design an algorithm to clean the entire room using only the 4 given APIs shown below.
+interface Robot {
+  // returns true if next cell is open and robot moves into the cell.
+  // returns false if next cell is obstacle and robot stays on the current cell.
+  boolean move();
+
+  // Robot will stay on the same cell after calling turnLeft/turnRight.
+  // Each turn will be 90 degrees.
+  void turnLeft();
+  void turnRight();
+
+  // Clean the current cell.
+  void clean();
+}
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+K-Palindrome,"A string is k palindrome if it can be transformed into a palindrome on removing at most k characters from it. Your task is to complete the function is_k_palin which takes two arguments a string str and a number N . Your function should return true if the string is k palindrome else it should return false.
+
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Add Digits,"Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Point lies or not,"Given three corner points of a triangle, and one more point P. Write a function to check whether P lies within the triangle or not.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Get min at pop,"Now, we'll try to solve a famous stack problem.
+You are given an array A of size N. You need to push the elements of the array into a stack and then print minimum in the stack at each pop
+Input Format:
+The first line of input contains T denoting the number of testcases. T testcases follow. Each testcase contains two lines of input. The first line of input contains size of array N. The second line of array contains the elements of array separated by spaces.
+Output Format:
+For each testcase, in a new line, print the required output.
+Your Task:
+Since this is a function problem, you don't need to take any input. Just complete the provided functions _push() and _getMinAtPop().
+Constraints:
+1 <= T <= 100
+1 <= Ai <= 107
+Examples:
+",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Check if two given circles touch each other,"There are two circle A and B with their centers C1(x1, y1) and C2(x2, y2) and radius R1 and R2. Task is to check both circles A and B touch or intersect each other or not.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Multiply Strings,"Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Temple Offerings,"Consider a devotee wishing to give offerings to temples along a mountain range. The temples are located in a row at different heights. Devotee is very religious and wants to offer each temple at least one offering. If two adjacent temples are at different altitudes, then the temple that is higher up should receive more offerings than the one that is lower down. If two adjacent temples are at the same height, then their offerings relative to each other does not matter. Find the minimum number of offerings to bring.
+
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Count Element Occurences,"Given an array arr[] of size N and an element k. The task is to find all elements in array that appear more than n/k times.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,en
+Increasing Triplet Subsequence,"Given an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.
+Formally the function should:
+Return true if there exists i, j, k
+such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false.
+Note: Your algorithm should run in O(n) time complexity and O(1) space complexity.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Does robot moves circular,"Given a sequence of moves for a robot, check if the sequence is circular or not. A sequence of moves is circular if first and last positions of robot are same. A move can be on of the following.
+    
+    G - Go one unit
+    L - Turn left
+    R - Turn right
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Battleships in a Board,"Given an 2D board, count how many battleships are in it. The battleships are represented with 'X's, empty slots are represented with '.'s. You may assume the following rules:
+You receive a valid board, made of only battleships or empty slots.
+Battleships can only be placed horizontally or vertically. In other words, they can only be made of the shape 1xN (1 row, N columns) or Nx1 (N rows, 1 column), where N can be of any size.
+At least one horizontal or vertical cell separates between two battleships - there are no adjacent battleships.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Queue Reconstruction by Height,"Suppose you have a random list of people standing in a queue. Each person is described by a pair of integers (h, k), where h is the height of the person and k is the number of people in front of this person who have a height greater than or equal to h. Write an algorithm to reconstruct the queue.
+Note:
+The number of people is less than 1,100.
+
+",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sort Transformed Array,"Given a sorted array of integers nums and integer values a, b and c. Apply a quadratic function of the form f(x) = ax2 + bx + c to each element x in the array.
+The returned array must be in sorted order.
+Expected time complexity: O(n)
+",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Design Search Autocomplete System,"Design a search autocomplete system for a search engine. Users may input a sentence (at least one word and end with a special character '#'). For each character they type except '#', you need to return the top 3 historical hot sentences that have prefix the same as the part of sentence already typed. Here are the specific rules:
+The hot degree for a sentence is defined as the number of times a user typed the exactly same sentence before.
+The returned top 3 hot sentences should be sorted by hot degree (The first is the hottest one). If several sentences have the same degree of hot, you need to use ASCII-code order (smaller one appears first).
+If less than 3 hot sentences exist, then just return as many as you can.
+When the input is a special character, it means the sentence ends, and in this case, you need to return an empty list.
+Your job is to implement the following functions:
+The constructor function:
+AutocompleteSystem(String[] sentences, int[] times): This is the constructor. The input is historical data. Sentences is a string array consists of previously typed sentences. Times is the corresponding times a sentence has been typed. Your system should record these historical data.
+Now, the user wants to input a new sentence. The following function will provide the next character the user types:
+List<String> input(char c): The input c is the next character typed by the user. The character will only be lower-case letters ('a' to 'z'), blank space (' ') or a special character ('#'). Also, the previously typed sentence should be recorded in your system. The output will be the top 3 historical hot sentences that have prefix the same as the part of sentence already typed.
+
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,en
+Series AP,"Given the first 2 terms A and B of an Arithmetic Series, tell the Nth term of the series. 
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Rectangle Area,"Find the total area covered by two rectilinear rectangles in a 2D plane.
+Each rectangle is defined by its bottom left corner and top right corner as shown in the figure.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Convert a list of characters into a String,"Given a list of characters, merge all of them into a string.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Binary Tree Pruning,"We are given the head node root of a binary tree, where additionally every node's value is either a 0 or a 1.
+Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
+(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+C++ Sets,"Write a program to perform set operation i.e union, intersection and difference on sets using set_union, set_difference and set_intersection functions of STL.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Hungry Pizza Lovers,"Dominos Pizza has hungry customers waiting in queue. Each unique order ,i, is placed by a customer at time x[i], and the order takes y[i] units of time to complete.
+You have information of all n orders, Find the order in which all customers will receive their pizza and print it. If two or more orders are completed at same time then sort them by non decreasing order number.
+",1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sum of Square Numbers,"Given a non-negative integer c, your task is to decide whether there're two integers a and b such that a2 + b2 = c.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Evaluate Reverse Polish Notation,"Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+Valid operators are +, -, *, /. Each operand may be an integer or another expression.
+Note:
+Division between two integers should truncate toward zero.
+The given RPN expression is always valid. That means the expression would always evaluate to a result and there won't be any divide by zero operation.
+",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Shortest Bridge,"In a given 2D binary array A, there are two islands.  (An island is a 4-directionally connected group of 1s not connected to any other 1s.)
+Now, we may change 0s to 1s so as to connect the two islands together to form 1 island.
+Return the smallest number of 0s that must be flipped.  (It is guaranteed that the answer is at least 1.)
+  ",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Max Length Removal,"Given a binary string (consists of only 0 and 1). If there is “100” as a sub-string in the string, then we can delete this sub-string. The task is to find the length of longest sub-string which can be make removed?
+Examples:
+Input  : str = ""1011100000100""
+Output : 6
+// Sub-strings present in str that can be make removed 
+// 101{110000}0{100}. First sub-string 110000-->100-->null,
+// length is = 6. Second sub-string 100-->null, length is = 3
+
+Input  : str = ""111011""
+Output : 0
+// There is no sub-string which can be make null
+",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Predict the Winner,"Given an array of scores that are non-negative integers. Player 1 picks one of the numbers from either end of the array followed by the player 2 and then player 1 and so on. Each time a player picks a number, that number will not be available for the next player. This continues until all the scores have been chosen. The player with the maximum score wins.
+Given an array of scores, predict whether player 1 is the winner. You can assume each player plays to maximize his score.
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,en
+Matchsticks to Square,"Remember the story of Little Match Girl? By now, you know exactly what matchsticks the little match girl has, please find out a way you can make one square by using up all those matchsticks. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time.
+Your input will be several matchsticks the girl has, represented with their stick length. Your output will either be true or false, to represent whether you could make one square using all the matchsticks the little match girl has.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Transpose of Matrix,"Write a program to find transpose of a square matrix mat[][] of size N*N. Transpose of a matrix is obtained by changing rows to columns and columns to rows.
+
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Largest Time for Given Digits,"Given an array of 4 digits, return the largest 24 hour time that can be made.
+The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:00, a time is larger if more time has elapsed since midnight.
+Return the answer as a string of length 5.  If no valid time can be made, return an empty string.
+  ",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Anagram Palindrome,"Given a string S, Check if characters of the given string can be rearranged to form a palindrome. 
+For example characters of “geeksogeeks” can be rearranged to form a palindrome “geeksoskeeg”, but characters of “geeksforgeeks” cannot be rearranged to form a palindrome.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Product array puzzle,"Given an array A of size N, construct a Product Array P (of same size) such that P is equal to the product of all the elements of A except A[i].
+",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Minimum Depth of a Binary Tree,"Given a binary tree, your task is to complete the function minDepth which takes one argument the root of the binary tree and prints the min depth of  binary tree .
+          1
+       /    \
+     2       3
+   /        
+4       
+
+For the tree above the min depth is 2 ie 1 3
+
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Insert into a Binary Search Tree,"Given the root node of a binary search tree (BST) and a value to be inserted into the tree, insert the value into the BST. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
+Note that there may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return any of them.
+For example, 
+Given the tree:
+        4
+       / \
+      2   7
+     / \
+    1   3
+And the value to insert: 5
+You can return this binary search tree:
+         4
+       /   \
+      2     7
+     / \   /
+    1   3 5
+This tree is also valid:
+         5
+       /   \
+      2     7
+     / \   
+    1   3
+         \
+          4",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Seeds of a number,"A Seed of a number n is a number x such that multiplication of x with its digits is equal to n. The task is to find all seeds of a given number n. x should not be equal to n. If no seed exists, then print -1.
+Examples:
+Input  : n = 138
+Output : 23 
+23 is a seed of 138 because
+23*2*3 is equal to 138
+
+Input : n = 4977
+Output : 79 711 
+79 is a seed of 4977 because
+79 * 7 * 9 = 4977.
+711 is also a seed of 4977 because
+711 * 1 * 1 * 7 = 4977
+
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+ArrayList Operation,"Given an ArrayList of N lowercase characters. The task is to count frequency of elements in the list.
+Note: use add() to append element in the list and contains() to check an element is present or not in the list and collections.frequency() to find the frequency of the element in the list.
+Input Format:
+First line of testcase contains T, number of testcases. For each testcase, first line contains number of queries Q. Each query may be any one of the two type:
+1. ""i"" with ""c"" : insert the element ""c"" into the ArrayList
+2. ""f"" with ""c"": find the frequency of ""c"" in the ArrayList.
+Output Format:
+For each testcase, output the frequency of elements. Print ""Not Present"" if element is not present in the list else its frequency in new line for every query.
+Your Task:
+Your task is to complete the functions insert() and freq() which are used to insert and find frequency of element respectively.
+Constraints:
+1 <= T <= 100
+1 <= N <= 105
+1 <= Q <= 102
+Example:
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Isomorphic Strings,"Check if two given strings are isomorphic to each other. Two strings str1 and str2 are called isomorphic if there is a one to one mapping possible for every character of str1 to every character of str2. And all occurrences of every character in ‘str1′ map to same character in ‘str2′.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Shopping Offers,"In LeetCode Store, there are some kinds of items to sell. Each item has a price.
+However, there are some special offers, and a special offer consists of one or more different kinds of items with a sale price.
+You are given the each item's price, a set of special offers, and the number we need to buy for each item. The job is to output the lowest price you have to pay for exactly certain items as given, where you could make optimal use of the special offers.
+Each special offer is represented in the form of an array, the last number represents the price you need to pay for this special offer, other numbers represents how many specific items you could get if you buy this offer.
+You could use any of special offers as many times as you want.
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Convex Hull,"Convex Hull of a set of points, in 2D plane, is a convex polygon with minimum area such that each point lies either on the boundary of polygon or inside it. Now given a set of points the task is to find the convex hull of points.
+
+",0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Kth smallest element,"Given an array arr and a number K where K is smaller than size of array, the task is to find the K’th smallest element in the given array. It is given that all array elements are distinct.
+Expected Time Complexity: O(n)
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,en
+Max rope cutting,"Given a rope of length n meters, cut the rope in different parts of integer lengths in a way that maximizes product of lengths of all parts. You must make at least one cut.
+",1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reverse Words in a String,"Given an input string, reverse the string word by word.
+  ",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Nodes at Odd Levels,"Given a binary tree of size N, your task is to complete the function printOddNodes(), that print's the nodes of binary tree present at odd level of the tree.At each level print nodes in any left to right order. Root is considered at level 1.
+For example consider the following tree
+          1
+       /     \
+      2       3
+    /   \       \
+   4     5       6
+        /  \     /
+       7    8   9
+
+Output  1 4 5 6
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Generate all cyclic permutations of a number,"Given a number N, generate all the possible cyclic permutations of the number.
+Input :  123
+Output : 123
+         312
+         231
+
+Input :  5674
+Output : 5674
+         4567
+         7456
+         6745
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Shortest Palindrome,"Given a string s, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Longest Common Subsequence,"Given two sequences, find the length of longest subsequence present in both of them. Both the strings are of uppercase.
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Equal Sum,"Given an array A of length N. Determine if there exists an element in the array such that the sum of the elements on its left is equal to the sum of
+the elements on its right. If there are no elements to the left/right, then the sum is considered to be zero. 
+Formally, find an i, such that, A1+A2...Ai-1 =Ai+1+Ai+2...AN.
+  ",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Longest Common Prefix in an Array,"Given a array of N strings, find the longest common prefix among all strings present in the array.
+",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Perfect Array,"There is an array contains some non-negative integers. Check whether the array is perfect or not. An array is called perfect if it is first strictly increasing, then constant and finally strictly decreasing. Any of the three parts can be empty.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Max Chunks To Make Sorted II,"This question is the same as ""Max Chunks to Make Sorted"" except the integers of the given array are not necessarily distinct, the input array could be up to length 2000, and the elements could be up to 10**8.
+Given an array arr of integers (not necessarily distinct), we split the array into some number of ""chunks"" (partitions), and individually sort each chunk.  After concatenating them, the result equals the sorted array.
+What is the most number of chunks we could have made?
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Tiger Zinda Hai,"Rohan is downloading the movie Tiger Zinda Hai using a torrent website, but he is new to torrent, so he doesn't know the difference between a fake download button and a real download button; therefore, he keeps pressing every button in excitement.
+Now he has clicked N  buttons, and many tabs are opened , if a opened tab is clicked again then it closes it. 
+Your task is to tell how many tabs are open at the end.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Valid Triangle Number,"Given an array consists of non-negative integers, your task is to count the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Implement Rand10() Using Rand7(),"Given a function rand7 which generates a uniform random integer in the range 1 to 7, write a function rand10 which generates a uniform random integer in the range 1 to 10.
+Do NOT use system's Math.random().
+  ",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,en
+Dull Jack,"Jack is very fond of reading. He reads a lot many pages of books in a day. Since he is obsessed with reading, he reads K times more pages than the number of pages he read the previous day.
+He read 1 page on the first day. He wants to see that on any given day N, how many pages will he read.Since the answer can be very large, print the answer in modulo 109+7.
+Input : 
+First line of input contains a single integer T denoting the number of test cases.The first line of each test case contains 2 space-separated integers N and K.
+Output : 
+For each test case, print the required answer in a new line.
+Constraints : 
+1 <= T <= 104
+1 <= N <= 106
+1 <= K <= 103
+Example : 
+Input : 
+3
+5 2
+2 3
+3 4
+Output : 
+16
+3
+16
+Explaination : 
+Case 1 : 
+On Day 1 : 1
+On Day 2 : 2
+On Day 3 : 4
+On Day 4 : 8
+On Day 5 : 16
+Case 2 : 
+On Day 1 : 1
+On Day 2 : 3
+Case 3 : 
+On Day 1 : 1
+On Day 2 : 4
+On Day 3 : 16
+  ** For More Input/Output Examples Use 'Expected Output' option **",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Prison Cells After N Days,"There are 8 prison cells in a row, and each cell is either occupied or vacant.
+Each day, whether the cell is occupied or vacant changes according to the following rules:
+If a cell has two adjacent neighbors that are both occupied or both vacant, then the cell becomes occupied.
+Otherwise, it becomes vacant.
+(Note that because the prison is a row, the first and the last cells in the row can't have two adjacent neighbors.)
+We describe the current state of the prison in the following way: cells[i] == 1 if the i-th cell is occupied, else cells[i] == 0.
+Given the initial state of the prison, return the state of the prison after N days (and N such changes described above.)
+  ",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sort the pile of cards,"We have N cards with each card numbered from 1 to N. All cards are randomly shuffled. We are allowed only operation moveCard(N) which moves the card with value N to the top of the pile. You are required to find out the minimum number of moveCard() operations required to sort the cards in increasing order.
+
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Binary representation of previous number,"Given a binary input that represents binary representation of positive number N, the task is to find binary representation of N-1. It may be assumed that input binary number is greater than 0. The binary input may or may not fit even in unsigned long long int.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Word Break,"Given a non-empty string s and a dictionary wordDict containing a list of non-empty words, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+Note:
+The same word in the dictionary may be reused multiple times in the segmentation.
+You may assume the dictionary does not contain duplicate words.
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Baseball Game,"You're now a baseball game point recorder.
+Given a list of strings, each string can be one of the 4 following types:
+Integer (one round's score): Directly represents the number of points you get in this round.
+""+"" (one round's score): Represents that the points you get in this round are the sum of the last two valid round's points.
+""D"" (one round's score): Represents that the points you get in this round are the doubled data of the last valid round's points.
+""C"" (an operation, which isn't a round's score): Represents the last valid round's points you get were invalid and should be removed.
+Each round's operation is permanent and could have an impact on the round before and the round after.
+You need to return the sum of the points you could get in all the rounds.
+",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sharing,"As we know that sharing is a good policy, but Rohan's younger brother Ted is very mischievous. He is very fond of chocolates. But actually he can't reach to the height of the kitchen shelf, where 'N' chocolates are kept. So, he can call any number of family members from 1 to K. But there is a condition that when members come and reach out to shelf, they divide all the chocolates between them in such a way that everyone will get the same amount of chocolates and this amount is maximal possible. If chocolates are left, Ted can take them after they go. Since Ted is not so smart, you need to tell him how much maximum chocolates he will get if he call maximum of 'K' people.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Negative weight cycle,"Given a graph, the task is to check if it contains a negative weight cycle or not.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Number Series,"Ishaan's friend, Charul, gave a challenge to Ishaan. He gave a series to Ishaan and asked him to find the Nth term of that series.
+Ishaan is very weak at solving series, so he needs your help. Help him find the Nth term of the following series :
+N    Nth term
+1    0
+2    1
+3    0
+4    2
+.
+.
+.
+10    1
+Input : 
+First line of input contains a single integer T denoting the number of test cases.
+The only line of each test case contains an integer N.
+Output : 
+For each test case, print the required answer in a new line.
+Constraints : 
+1 <= T <= 200
+1 <= N <= 10^9
+Example : 
+Input : 
+5
+1
+2
+3
+4
+10
+Output : 
+0
+1
+0
+2
+1
+Explanation : 
+The Nth term is given, solve the series.
+  ** For More Input/Output Examples Use 'Expected Output' option **",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Next Greater Even Number,"Given a positive integer N. The task is to find the smallest even number E such that E > N and digits in N and E are same.
+",1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Best Time to Buy and Sell Stock II,"Say you have an array for which the ith element is the price of a given stock on day i.
+Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+Note: You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).
+",1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Unique Numbers,"In given range, print all numbers having unique digits. e.g. In range 1 to 20 should print all numbers except 11.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Magical Box,"You love doing magic a lot and as a step towards your passion, you discover a new magic trick. But for that you need to have a cuboidal magic box  (12 edges : 6 sides).  You have a glittering strings of ""P"" cm and a special kind of illusion paper - ""S"" cm2. The string will be used to cover all the edges and the paper to cover all the sides. You have to make the most optimized use of the material to prepare the box. But you don't know how to use it efficiently, so you ask your friend to prepare the box.
+Example : 
+Input : 
+The first line of input contains an integer T denoting the Test cases. Then T test cases follow. 
+The second line of each test case contains an integer P denoting the length of the glittering string 
+The third line of each test case contains an integer S denoting the area of the illusion paper
+Output : 
+For each test case in a new line print the maximum Volume of the magicial box that your friend can prepare. 
+Constraints :
+1 ≤ T ≤ 100
+1 ≤ P ≤ 109
+1 ≤ S ≤ 109
+Input : 
+2
+22 15
+20 5
+Output : 
+3.02408
+0.33020
+** For More Input/Output Examples Use 'Expected Output' option **",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Bitwise ORs of Subarrays,"We have an array A of non-negative integers.
+For every (contiguous) subarray B = [A[i], A[i+1], ..., A[j]] (with i <= j), we take the bitwise OR of all the elements in B, obtaining a result A[i] | A[i+1] | ... | A[j].
+Return the number of possible results.  (Results that occur more than once are only counted once in the final answer.)
+  ",0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Maximize sum after K negations,"Given an array of integers of size N and a number K. Your must modify array K number of times. Here modify array means in each operation you can replace any array element either arr[i] by -arr[i] or -arr[i] by arr[i]. You need to perform this operation in such a way that after K operations, sum of array must be maximum.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Group Anagrams Together,"Given an array of words, print the count of all anagrams together in sorted order (increasing order of counts).
+For example, if the given array is {“cat”, “dog”, “tac”, “god”, “act”}, then grouped anagrams are “(dog, god) (cat, tac, act)”. So the output will be 2 3.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Consecutive Array Elements,"Given an unsorted array of numbers, write a function that test whether array consists of consecutive numbers.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Make Matrix Beautiful,"Given a Square matrix mat[] of size NxN. Your task is to find minimum number of operation(s) that are required to make the matrix Beautiful.
+A Beautiful matrix is a matrix in which sum of elements in each row and column is equal. In one operation you can only increment any value of cell of matrix by 1.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+"Count of strings that can be formed using a, b and c under given constraints","Given a length n, count the number of strings of length n that can be made using ‘a’, ‘b’ and ‘c’ with at-most one ‘b’ and two ‘c’s allowed.
+  ",0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sort first half in ascending and second half in descending,"Given an array of integers, sort the first half of the array in ascending order and second half in descending order.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Roman to Integer,"Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+For example, two is written as II in Roman numeral, just two one's added together. Twelve is written as, XII, which is simply X + II. The number twenty seven is written as XXVII, which is XX + V + II.
+Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
+I can be placed before V (5) and X (10) to make 4 and 9. 
+X can be placed before L (50) and C (100) to make 40 and 90. 
+C can be placed before D (500) and M (1000) to make 400 and 900.
+Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
+",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Maximum Node Level,"Find the level in a binary tree which has the maximum number of nodes. The root is at level 0.
+Note: The Input/Output format and Example given are used for system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from stdin/console. The task is to complete the function specified, and not to write the full code.
+
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+First negative integer in every window of size k,"Given an array and a positive integer k, find the first negative integer for each and every window(contiguous subarray) of size k.
+
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,en
+Crazy String,"You have given a non-empty string. This string consists of lowercase or uppercase or both English letters. The length of the string will not exceed 1000.
+Convert the string using following cases:
+Case 1: If first character of string is in lowercase then second character should be in uppercase, third character should be in lowercase and so on till the last character of the string.
+   For example :   Input   geeksforgeeks
+                            Output   gEeKsFoRgEeKs
+Case 2: If first character of string is in uppercase then second character should be in lowercase, third character should be in uppercase and so on till the last character of the string.
+  For example :   Input    Geeksforgeeks
+                           Output   GeEkSfOrGeEkS
+Input 
+       •   The first line of the input contains a single integer T denoting the number of test cases. 
+The first line of each test case contains a string. 
+Output 
+For each test case, output the require string in newline. 
+  Constraints 
+    •    1 ≤ T ≤ 100
+  Example 
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Longest Arithmetic Progression,"Given an array of sorted numbers having no duplicates , write a program to find the length of the Longest Arithmetic Progression (LLAP) in it.
+",1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Student Attendance Record I,"You are given a string representing an attendance record for a student. The record only contains the following three characters:
+'A' : Absent.
+'L' : Late.
+'P' : Present.
+A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).
+You need to return whether the student could be rewarded according to his attendance record.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Binary Tree Upside Down,"Given a binary tree where all the right nodes are either leaf nodes with a sibling (a left node that shares the same parent node) or empty, flip it upside down and turn it into a tree where the original right nodes turned into left leaf nodes. Return the new root.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Largest Fibonacci Subsequence,"Given an array with positive number the task to find the largest subsequence from array that contain elements which are Fibonacci numbers.
+
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Distinct Substrings,"Given a string S consisting of uppercase alphabetic characters. Return the  number of different substrings of size 2 that appear in S as contiguous substrings.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sum of an AP,"Write a program to print sum of an Arithmetic Series with n terms with first term given as a and common difference d.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Summary Ranges,"Given a sorted integer array without duplicates, return the summary of its ranges.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Count the Specials - Java,"Given an arry A (may contain duplicates) of N elements and a positive integer K. The task is to count the number of elements which occurs exactly floor(N/K) times in the array.
+Hint: You may use hashing or brute-force.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Best Time to Buy and Sell Stock,"Say you have an array for which the ith element is the price of a given stock on day i.
+If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+Note that you cannot sell a stock before you buy one.
+",1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reverse Words in a String II,"Given an input string , reverse the string word by word. 
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Common elements,"Given three increasingly sorted arrays A, B, C of sizes N1, N2, and N3 respectively, you need to print all common elements in these arrays.
+Note: Please avoid printing the same common element more than once.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,en
+Intersection of two sorted Linked lists,"Given two lists sorted in increasing order, create a new list representing the intersection of the two lists. The new list should be made with its own memory — the original lists should not be changed.
+For example, let the first linked list be 1->2->3->4->6 and second linked list be 2->4->6->8, then your function should create a third list as 2->4->6.
+
+",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Java Convert String to LowerCase,"Given a string S. The task is to convert characters of string to lowercase.
+Note: toLowerCase() method converts all characters of the string into lowercase letter.
+Input : 
+The first line of input contains a single integer T, denoting the number of test cases. For each testcase there will be only one line containing string S which consists of uppercase or lowercase english alphabets.
+Output : 
+For each testcase in new line, print the string in lowercase.
+Constraints : 
+1 <= T <= 100
+1 <= |S| <= 103
+Example : 
+Input : 
+2
+ABCddE
+LMNOppQQ
+Output : 
+abcdde
+lmnoppqq
+** For More Input/Output Examples Use 'Expected Output' option **",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sentence Similarity,"Given two sentences words1, words2 (each represented as an array of strings), and a list of similar word pairs pairs, determine if two sentences are similar.
+For example, ""great acting skills"" and ""fine drama talent"" are similar, if the similar word pairs are pairs = [[""great"", ""fine""], [""acting"",""drama""], [""skills"",""talent""]].
+Note that the similarity relation is not transitive. For example, if ""great"" and ""fine"" are similar, and ""fine"" and ""good"" are similar, ""great"" and ""good"" are not necessarily similar.
+However, similarity is symmetric. For example, ""great"" and ""fine"" being similar is the same as ""fine"" and ""great"" being similar.
+Also, a word is always similar with itself. For example, the sentences words1 = [""great""], words2 = [""great""], pairs = [] are similar, even though there are no specified similar word pairs.
+Finally, sentences can only be similar if they have the same number of words. So a sentence like words1 = [""great""] can never be similar to words2 = [""doubleplus"",""good""].
+Note:
+The length of words1 and words2 will not exceed 1000.
+The length of pairs will not exceed 2000.
+The length of each pairs[i] will be 2.
+The length of each words[i] and pairs[i][j] will be in the range [1, 20].
+ ",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Plus One,"Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+You may assume the integer does not contain any leading zero, except the number 0 itself.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Count the number of ways to tile the floor of size n x m using 1 x m size tiles,"Given a floor of size n x m and tiles of size 1 x m. The problem is to count the number of ways to tile the given floor using 1 x m tiles. A tile can either be placed horizontally or vertically.
+Both n and m are positive integers and 2 < = m.
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Container With Most Water,"Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+Note: You may not slant the container and n is at least 2.
+  The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+  ",1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Top View of Binary Tree,"Top view of a binary tree is the set of nodes visible when the tree is viewed from the top. You are required to complete the function topView, which should print the top view of the given binary tree.
+       1
+    /     \
+   2       3
+  /  \    / \
+ 4    5  6   7
+Top view of the above binary tree is
+4 2 1 3 7
+Note: For the problem the printing should be level wise, i.e. starting node should be root.
+
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,en
+Next Closest Time,"Given a time represented in the format ""HH:MM"", form the next closest time by reusing the current digits. There is no limit on how many times a digit can be reused.
+You may assume the given input string is always valid. For example, ""01:34"", ""12:09"" are all valid. ""1:34"", ""12:9"" are all invalid.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Sum of large numbers,"A pair of two very large positive integers is given. The task is to print their sum.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Minimum Time Difference,"Given a list of 24-hour clock time points in ""Hour:Minutes"" format, find the minimum minutes difference between any two time points in the list.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Replace all 0's with 5,"You are given an integer n. You need to convert all zeroes of n to 5.
+Input Format:
+The first line of input contains an integer T denoting the number of test cases . Then T test cases follow . Each test case contains a single integer n denoting the number.
+Output Format:
+The output of the function will be an integer where all zero's are converted to 5 .
+Your Task:
+Your task is to complete the function convertFive which takes an integer n as argument and replaces all zeros in the number n with 5 .Your function should return the converted number .
+Constraints:
+1 <= T < 100
+1 <= n <= 10000
+Example:
+Input
+2
+1004
+121
+Ouput
+1554
+121
+Note:The Input/Ouput format and Example given are used for system's internal purpose, and should be used by a user for Expected Output only. As it is a function problem, hence a user should not read any input from stdin/console. The task is to complete the function specified, and not to write the full code.
+** For More Input/Output Examples Use 'Expected Output' option **",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Basic Calculator III,"Implement a basic calculator to evaluate a simple expression string.
+The expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces .
+The expression string contains only non-negative integers, +, -, *, / operators , open ( and closing parentheses ) and empty spaces . The integer division should truncate toward zero.
+You may assume that the given expression is always valid. All intermediate results will be in the range of [-2147483648, 2147483647].
+Some examples:
+""1 + 1"" = 2
+"" 6-4 / 2 "" = 4
+""2*(5+5*2)/3+(6/2+8)"" = 21
+""(2+6* 3+5- (3*14/7+2)*5)+3""=-12
+  Note: Do not use the eval built-in library function.",0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Akku and Arrays,"Akku have solved many problems, she is genius. One day her friend gave her an Array and asked her to perform
+some queries of following type:
+Each query consists of three integers
+1 A B : Update the Array at index A by value B
+2 A B : if the subarray from index A to B (both inclusive) is
+        1. Both increasing(Non-decreasing) and decreasing(Non-increasing) print -1
+        2. Only increasing(Non-decreasing) print 0
+        3. Only decreasing(Non-increasing) print 1
+        4. Neither increasing nor decreasing print -1
+Akku needs your help, can you help her.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,en
+Rotate String,"We are given two strings, A and B.
+A shift on A consists of taking string A and moving the leftmost character to the rightmost position. For example, if A = 'abcde', then it will be 'bcdea' after one shift on A. Return True if and only if A can become B after some number of shifts on A.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Love For The Twins,"Suppose you have two pets and you love both of them very much. You go to a pet store to buy different articles for your pets. But you ask salesman that you will buy only those articles which are actually in pair. In this store, articles are referred as integers. 
+So you have to tell total no. of articles you will buy for your pets.
+Note: Time complexity O(n).
+Input : 
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. 
+Second line contains the no. of articles ""N"" shown by the salesman.
+Third line contains N - separated integers describing the articles referred as an integer.
+Output : 
+Total No. of articles you will prefer to buy for your pets.
+Constraints:
+1 ≤ T ≤ 200
+1 ≤ N ≤ 1000
+1 ≤ A[N] ≤ 1000
+Example : 
+Input : 
+1
+7
+10 10 10 20 20 10 20
+Output :
+6
+  ** For More Input/Output Examples Use 'Expected Output' option **",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Subarray with 0 sum,"Given an array a[] of N positive and negative numbers. Find if there is a subarray (of size at-least one) with 0 sum.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,en
+Minimum Increment to Make Array Unique,"Given an array of integers A, a move consists of choosing any A[i], and incrementing it by 1.
+Return the least number of moves to make every value in A unique.
+  ",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+The Counting Game !!,"Shubham wrote a sequence of words. The words are written using the rules given below:
+The sequence is concatenation of one or more words consisting of English letters.
+All letters in the first word are lowercase.
+For each of the subsequent words, the first letter is uppercase and rest of the letters are lowercase.
+You need to find the number of words in the string.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Make the hit in power game !,"There are two integers (X and N). You have to make a number in such a way that it contains the first digit and last digit occurring in X1 , X2 , X3,  .... XN.
+let's take  X=12 and N=5.
+let l is last digit and f is first digit.
+121  = 12  the first digit of 12 is 1(f1) and last digit is 2 (l1).
+122 = 144 the first digit of 144 is 1 (f2) and last digit is 4 (l2).
+123 = 1728 the first digit of 1728 is 1 (f3) and last digit is 8  (l3).
+124 = 20736 the first digit of 20736 is 2 (f4) and last digit is 6 (l4).
+125 = 248832 the first digit of 248832 is 2 (f5) and last digit is 2 (l5).
+We made a number in the format f1 l1 f2 l2 f3 l3 f4 l4 f5 l5 .
+so number becomes 1214182622.
+Input Format:
+The line contains number of test cases T. t testcases follow. Each testcase contains single line of input containing  X and N .
+Output format:
+For each testcase in a new line, print output as directed.
+Constraints:
+1 <= T <= 150
+10 <= X <= 84
+1 <= N <= 5
+Examples:
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Concatenation of Zig-Zag String in â€˜nâ€™ Rows,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Is Subsequence,"Given a string s and a string t, check if s is subsequence of t.
+You may assume that there is only lower case English letters in both s and t. t is potentially a very long (length ~= 500,000) string, and s is a short string (<=100).
+A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, ""ace"" is a subsequence of ""abcde"" while ""aec"" is not).
+",0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Compare two linked lists,"Given two string, represented as linked lists (every character is a node in linked list). Write a function compare() that works similar to strcmp(), i.e., it returns 0 if both strings are same, 1 if first linked list is lexicographically greater, and -1 if second is lexicographically greater.
+",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Maximize XOR,"Given a number X find the total numbers A such that
+A XOR X >= X,  and
+1<=A<=X.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Minimum Time,"You need to write N same characters on a screen and each time you can insert a character, delete the last character and copy and paste all written characters i.e. after copy operation count of total written character will become twice. Now you are given time for insertion, deletion and copying. You need to output minimum time to write N characters on the screen using these operations.
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Adventure in a Maze,"You have got a maze, which is a N*N Grid. Every cell of the maze contains these numbers 1, 2 or 3. 
+If it contains 1 : means we can go Right from that cell only.
+If it contains 2 : means we can go Down from that cell only.
+If it contains 3 : means we can go Right and Down to both paths from that cell.
+We cant go out of the maze at any time.
+Initially, You are on the Top Left Corner of The maze(Entry). And, You need to go to the Bottom Right Corner of the Maze(Exit).
+You need to find the total number of paths from Entry to Exit Point.
+There may be many paths but you need to select that path which contains the maximum number of Adventure.
+The Adventure on a path is calculated by taking the sum of all the cell values thatlies in the path.
+If no valid path exists, Adventure is zero.Since the total paths may be very large, Output it Modulo (1e9+7).
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Insert Interval,"Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
+You may assume that the intervals were initially sorted according to their start times.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Card Flipping Game,"On a table are N cards, with a positive integer printed on the front and back of each card (possibly different).
+We flip any number of cards, and after we choose one card. 
+If the number X on the back of the chosen card is not on the front of any card, then this number X is good.
+What is the smallest number that is good?  If no number is good, output 0.
+Here, fronts[i] and backs[i] represent the number on the front and back of card i. 
+A flip swaps the front and back numbers, so the value on the front is now on the back and vice versa.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Kth Smallest Element in a BST,"Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+Note:
+You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
+",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Is Binary Tree Heap,"Given a binary tree you need to check if it follows max heap property or not.
+",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,en
+X of a Kind in a Deck of Cards,"In a deck of cards, each card has an integer written on it.
+Return true if and only if you can choose X >= 2 such that it is possible to split the entire deck into 1 or more groups of cards, where:
+Each group has exactly X cards.
+All the cards in each group have the same integer.
+  ",1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Finding middle element in a linked list,"Given a singly linked list of N nodes. The task is to find middle of the linked list. For example, if given linked list is 1->2->3->4->5 then output should be 3. 
+If there are even nodes, then there would be two middle nodes, we need to print second middle element. For example, if given linked list is 1->2->3->4->5->6 then output should be 4.
+",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Smallest Positive missing number,"You are given an array arr[] of N integers including 0. The task is to find the smallest positive number missing from the array.
+Note: Expected solution in O(n) time using constant extra space.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,en
+Maximum of minimum for every window size,"Given an integer array A[] of size N. The task is to find the maximum of the minimum of every window size in the array.
+Note: Window size varies from 1 to n.
+",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,en
+Maximum product of two numbers,"Given an array with all elements greater than or equal to zero. Return the maximum product of two numbers possible.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reverse digits,"Write a program to reverse digits of a number N.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Multiply by 11,"Today Kevin’s Teacher taught Kevin, Multiplication table of 11.After reaching home, Kevin thought of multiplying the numbers with 11 and
+finding the answers.Help Kevin finding the answers as soon as possible.
+",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Rotate Array,"Given an unsorted array arr[] of size N, rotate it by D elements (clockwise). 
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Longest Repeating Character Replacement,"Given a string that consists of only uppercase English letters, you can replace any letter in the string with another letter at most k times. Find the length of a longest substring containing all repeating letters you can get after performing the above operations.
+Note:
+Both the string's length and k will not exceed 104.
+",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,en
+Recamanâ€™s sequence,"Given an integer n. Print first n elements of Recaman’s sequence.
+It is basically a function with domain and co-domain as natural numbers and 0. It is recursively defined as below:
+Specifically, let a(n) denote the (n+1)-th term. (0 being already there).
+The rule says:
+a(0) = 0,
+if n > 0 and the number is not 
+   already included in the sequence,
+     a(n) = a(n - 1) - n 
+else 
+     a(n) = a(n-1) + n. 
+Examples:
+Input : n = 6
+Output : 0, 1, 3, 6, 2, 7
+
+Input  : n = 17
+Output : 0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 
+         11, 22, 10, 23, 9, 24, 8
+
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,en
+Check if divisible by 5,"Given a number, the task is to check if number is divisible by 5. The input number may be large and it may not be possible to store even if we use long long int.
+Examples:
+Input  : n = 56945255
+Output : Yes
+
+Input  : n = 1234567589333150
+Output : Yes
+
+Input  : n = 3635883959606670431112222
+Output : No
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Pass the semester,"Satish wants to prepare for tommorow's exam . He knows the distribution of marks for the subject along with time to learn the concepts.
+You are given remaining time for the exam along with marks for each topic and passing marks for the subject.
+Find the max marks Satish can attain by studing max no of topic in max no hours not excedding (p) .
+",1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+XOR of two numbers after making length of their binary representations equal,"Given two numbers say a and b. Print their XOR after making the lengths of their binary representation equal by adding trailing zeros to the binary representation of smaller one.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Super Egg Drop,"You are given K eggs, and you have access to a building with N floors from 1 to N. 
+Each egg is identical in function, and if an egg breaks, you cannot drop it again.
+You know that there exists a floor F with 0 <= F <= N such that any egg dropped at a floor higher than F will break, and any egg dropped at or below floor F will not break.
+Each move, you may take an egg (if you have an unbroken one) and drop it from any floor X (with 1 <= X <= N). 
+Your goal is to know with certainty what the value of F is.
+What is the minimum number of moves that you need to know with certainty what F is, regardless of the initial value of F?
+  ",0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Greatest of three numbers,"Write a program to find the greatest of the three numbers. 
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+The Cycle Game,"Given a number X and another number Y . There are a total  N cycles ,  and alternatively we perform operation on each number . In each cycle , we multiply the number by 2 . Starting with X .
+Suppose after all the N cycles, the number X has become W and  number Y has become Z . You have to calculate the division of the maximum number among W and Z by the minimum number among W and Z .
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Shortest Word Distance,"Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Count Pairs,"Given two non-negative integers A, B. Find number of pairs of integers (a,b) such that:
+a+b=A
+a3+b3=B
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Find unique element,"Given an array which contains all elements occurring k times, but one occurs only once. Find that unique element.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Helping Meesa,"A Lucky number is a number which has only the digits 4 and 7. Meesa makes a special function F(n) for a positive integer n  that returns all good digits of number n from the left to the right. For example, the the output for number 147 is number 47. Meesa has two numbers :
+An integer a 
+A Lucky number b.
+Help Meesa to find the minimum number c (c > a) such that  F(c) = b.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Shortest un-ordered subarray,"Given an array of n distinct elements. Find the length of shortest unordered (neither increasing nor decreasing) sub array in given array.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Type of input,"Given an input N , print the data type of the input N.
+eg
+Sequence of digits -- int
+Sequence of digits with a dot -- float
+Sequence of chars  -- string
+Single non-digit char --- char
+
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Reverse words in a given string,"Given a String of length S, reverse the whole string without reversing the individual words in it. Words are separated by dots.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Remove all duplicates from a given string,"Given a string which may contains lowercase and uppercase chracters. The task is to remove all  duplicate characters from the string and print the resultant string.  The order of remaining characters in the output should be same as in the original string.
+",1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Graph Valid Tree,"Given n nodes labeled from 0 to n-1 and a list of undirected edges (each edge is a pair of nodes), write a function to check whether these edges make up a valid tree.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Group Shifted Strings,"Given a string, we can ""shift"" each of its letter to its successive letter, for example: ""abc"" -> ""bcd"". We can keep ""shifting"" which forms the sequence:
+""abc"" -> ""bcd"" -> ... -> ""xyz""
+Given a list of strings which contains only lowercase alphabets, group all strings that belong to the same shifting sequence.
+",0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Pair with greatest product in array,"Given an array A of N elements. The task is to find the greatest number S such that it is product of two elements of given array (S cannot be included in pair. Also, pair must be from different indices).
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Foldable Binary Tree,"Given a binary tree, check if the tree can be folded or not. A tree can be folded if left and right subtrees of the tree are structure wise same. An empty tree is considered as foldable.
+Consider the below trees:
+(a) and (b) can be folded.
+(c) and (d) cannot be folded.
+
+(a)
+       10
+     /    \
+    7      15
+     \    /
+      9  11
+(b)
+        10
+       /  \
+      7    15
+     /      \
+    9       11
+(c)
+        10
+       /  \
+      7   15
+     /    /
+    5   11
+(d)
+         10
+       /   \
+      7     15
+    /  \    /
+   9   10  12
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Minimum Swaps to Sort,"Given an array of N distinct elementsA[ ]. The task is to find the minimum number of swaps required to sort the array. Your are required to complete the function which returns an integer denoting the minimum number of swaps, required to sort the array.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Contain Virus,"A virus is spreading rapidly, and your task is to quarantine the infected area by installing walls.
+The world is modeled as a 2-D array of cells, where 0 represents uninfected cells, and 1 represents cells contaminated with the virus. A wall (and only one wall) can be installed between any two 4-directionally adjacent cells, on the shared boundary.
+Every night, the virus spreads to all neighboring cells in all four directions unless blocked by a wall. Resources are limited. Each day, you can install walls around only one region -- the affected area (continuous block of infected cells) that threatens the most uninfected cells the following night. There will never be a tie.
+Can you save the day? If so, what is the number of walls required? If not, and the world becomes fully infected, return the number of walls used.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+First non-repeating character in a stream,"Given an input stream of N characters consisting only of lower case alphabets. The task is to find the first non repeating character, each time a character is inserted to the stream. If no non repeating element is found print -1.
+",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,en
+Projection Area of 3D Shapes,"On a N * N grid, we place some 1 * 1 * 1 cubes that are axis-aligned with the x, y, and z axes.
+Each value v = grid[i][j] represents a tower of v cubes placed on top of grid cell (i, j).
+Now we view the projection of these cubes onto the xy, yz, and zx planes.
+A projection is like a shadow, that maps our 3 dimensional figure to a 2 dimensional plane. 
+Here, we are viewing the ""shadow"" when looking at the cubes from the top, the front, and the side.
+Return the total area of all three projections.
+  ",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Combination Sum,"Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
+The same repeated number may be chosen from candidates unlimited number of times.
+Note:
+All numbers (including target) will be positive integers.
+The solution set must not contain duplicate combinations.
+",1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Find sum of divisors,"Given a natural number n, the task is to find sum of divisors of all the divisors of n.
+Examples:
+Input : n = 54
+Output : 232
+Divisors of 54 = 1, 2, 3, 6, 9, 18, 27, 54.
+Sum of divisors of 1, 2, 3, 6, 9, 18, 27, 54 
+are 1, 3, 4, 12, 13, 39, 40, 120 respectively.
+Sum of divisors of all the divisors of 54 = 
+1 + 3 + 4 + 12 + 13 + 39 + 40 + 120 = 232.
+Input : n = 10
+Output : 28
+Divisors of 10 are 1, 2, 5, 10
+Sums of divisors of divisors are 
+1, 3, 6, 18.
+Overall sum = 1 + 3 + 6 + 18 = 28
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Longest Mountain in Array,"Let's call any (contiguous) subarray B (of A) a mountain if the following properties hold:
+B.length >= 3
+There exists some 0 < i < B.length - 1 such that B[0] < B[1] < ... B[i-1] < B[i] > B[i+1] > ... > B[B.length - 1]
+(Note that B could be any subarray of A, including the entire array A.)
+Given an array A of integers, return the length of the longest mountain. 
+Return 0 if there is no mountain.
+",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Exit Point in a Matrix,"Given a matrix with 0’s and 1’s , you enter the matrix at cell (0,0) in left to right direction. whenever you encounter a 0 you retain in same direction , if you encounter a 1’s you have to change direction to right of current direction and change that 1 value to 0, you have to find out from which index you will leave the matrix at the end.
+
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Number of Squareful Arrays,"Given an array A of non-negative integers, the array is squareful if for every pair of adjacent elements, their sum is a perfect square.
+Return the number of permutations of A that are squareful.  Two permutations A1 and A2 differ if and only if there is some index i such that A1[i] != A2[i].
+  ",0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Node at distance,"Given a Binary Tree of N nodes and a positive integer k. The task is to count all distinct nodes that are distance k from a leaf node. Here, k distance from leaf means k levels higher than a leaf node. For example, if k is more than height of Binary Tree, then nothing should be counted.
+",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Possible Pairs,"Given GCD(a, b) is equal to G and LCM(a, b) is equal to L. The task is to find number of possible pairs (a, b).
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Move all negative elements to end,"Given an unsorted array having both negative and positive integers. The task is place all negative element at the end of array without changing the order of positive element and negative element.
+Examples:
+Input : A[] = {1, -1, 3, 2, -7, -5, 11, 6 }
+Output : 1  3  2  11  6  -1  -7  -5 
+
+Input : A[] = {-5, 7, -3, -4, 9, 10, -1, 11}
+Output : 7  9  10  11  -5  -3  -4  -1  
+
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Unique Paths III,"On a 2-dimensional grid, there are 4 types of squares:
+1 represents the starting square.  There is exactly one starting square.
+2 represents the ending square.  There is exactly one ending square.
+0 represents empty squares we can walk over.
+-1 represents obstacles that we cannot walk over.
+Return the number of 4-directional walks from the starting square to the ending square, that walk over every non-obstacle square exactly once.
+  ",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+"Count ways to express N as the sum of 1,3 and 4","Given N, count the number of ways to express N as sum of 1, 3 and 4.
+
+",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Count Numbers in Range,"Given two positive integers L and R, return count of numbers having exactly 3 divisors from L to R inclusive.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Bulb Switcher II,"There is a room with n lights which are turned on initially and 4 buttons on the wall. After performing exactly m unknown operations towards buttons, you need to return how many different kinds of status of the n lights could be.
+Suppose n lights are labeled as number [1, 2, 3 ..., n], function of these 4 buttons are given below:
+Flip all the lights.
+Flip lights with even numbers.
+Flip lights with odd numbers.
+Flip lights with (3k + 1) numbers, k = 0, 1, 2, ...
+  ",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Count numbers,"Given a number n, write a program that returns count of numbers from 1 to n that don’t contain digit 3 in their decimal representation.
+",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+Flip Game,"You are playing the following Flip Game with your friend: Given a string that contains only these two characters: + and -, you and your friend take turns to flip two consecutive ""++"" into ""--"". The game ends when a person can no longer make a move and therefore the other person will be the winner.
+Write a function to compute all possible states of the string after one valid move.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+longest substring containing '1',"Given a function that takes a binary string. The task is to return the longest size of contiguous substring containing only ‘1’.
+",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
+K-th missing element,"Given an increasing sequence a[], we need to find the K-th missing contiguous element in the increasing sequence which is not present in the sequence. If no k-th missing element is there output -1.
+",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,en
